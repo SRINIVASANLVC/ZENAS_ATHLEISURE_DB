@@ -6,7 +6,7 @@ import pandas as pd
 st.title("Zena's Amazing Athleisure Catalog")
 
 #session = get_active_session()
-#cnx=st.connection("snowflake")
+cnx=st.connection("snowflake")
 session = cnx.session()
 
 # get a list of colors for a drop list selection
